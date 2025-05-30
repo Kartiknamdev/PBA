@@ -18,7 +18,7 @@ connectDB().then(() => {
         res.send("Hey, I'm listening to you locally!");
     });
 
-    app.get("/hello", (req, res) => {
+    app.get("/this server is running", (req, res) => {
         res.send("Hello, I'm listening to you locally!");
     });
 }).catch((err) => {
