@@ -19,7 +19,7 @@ const userSchema = mongoose.Schema(
     phone: {
       type: String,
       match: /^\+91\d{10}$/,
-      default:"Your Phone Number",
+      default:"+911234567890",
     },
     organization: {
       type: String,
